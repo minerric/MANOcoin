@@ -1,9 +1,9 @@
 [Desktop Entry]
 Encoding=UTF-8
-Name=Mano
-Comment=Mano P2P Cryptocurrency
-Comment[fr]=Mano, monnaie virtuelle cryptographique pair à pair
-Comment[tr]=Mano, eşten eşe kriptografik sanal para birimi
+Name=MANO
+Comment=MANO P2P Cryptocurrency
+Comment[fr]=MANO, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=MANO, eşten eşe kriptografik sanal para birimi
 Exec=mano-qt %u
 Terminal=false
 Type=Application

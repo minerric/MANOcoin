@@ -50,9 +50,9 @@ Var StartMenuGroup
 # Installer attributes
 OutFile @abs_top_srcdir@/mano-${VERSION}-win@WINDOWS_BITS@-setup.exe
 !if "@WINDOWS_BITS@" == "64"
-InstallDir $PROGRAMFILES64\Mano
+InstallDir $PROGRAMFILES64\MANO
 !else
-InstallDir $PROGRAMFILES\Mano
+InstallDir $PROGRAMFILES\MANO
 !endif
 CRCCheck on
 XPStyle on
@@ -107,7 +107,7 @@ Section -post SEC0001
     WriteRegDWORD HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" NoModify 1
     WriteRegDWORD HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" NoRepair 1
     WriteRegStr HKCR "mano" "URL Protocol" ""
-    WriteRegStr HKCR "mano" "" "URL:Mano"
+    WriteRegStr HKCR "mano" "" "URL:MANO"
     WriteRegStr HKCR "mano\DefaultIcon" "" $INSTDIR\mano-qt.exe
     WriteRegStr HKCR "mano\shell\open\command" "" '"$INSTDIR\mano-qt.exe" "%1"'
 SectionEnd
@@ -139,7 +139,7 @@ Section -un.post UNSEC0001
     DeleteRegKey HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)"
     Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\Uninstall $(^Name).lnk"
     Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\$(^Name).lnk"
-    Delete /REBOOTOK "$SMSTARTUP\Mano.lnk"
+    Delete /REBOOTOK "$SMSTARTUP\MANO.lnk"
     Delete /REBOOTOK $INSTDIR\uninstall.exe
     Delete /REBOOTOK $INSTDIR\debug.log
     Delete /REBOOTOK $INSTDIR\db.log

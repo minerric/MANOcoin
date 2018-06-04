@@ -29,16 +29,16 @@
   <string>????</string>
 
   <key>CFBundleExecutable</key>
-  <string>Mano-Qt</string>
+  <string>MANO-Qt</string>
   
   <key>CFBundleName</key>
-  <string>Mano-Qt</string>
+  <string>MANO-Qt</string>
 
   <key>LSHasLocalizedDisplayName</key>
   <true/>
 
   <key>CFBundleIdentifier</key>
-  <string>org.mano.Mano-Qt</string>
+  <string>org.mano.MANO-Qt</string>
 
   <key>CFBundleURLTypes</key>
   <array>
@@ -46,7 +46,7 @@
       <key>CFBundleTypeRole</key>
       <string>Editor</string>
       <key>CFBundleURLName</key>
-      <string>org.mano.ManoPayment</string>
+      <string>org.mano.MANOPayment</string>
       <key>CFBundleURLSchemes</key>
       <array>
         <string>mano</string>
@@ -60,7 +60,7 @@
       <key>UTTypeIdentifier</key>
       <string>org.mano.paymentrequest</string>
       <key>UTTypeDescription</key>
-      <string>Mano payment request</string>
+      <string>MANO payment request</string>
       <key>UTTypeConformsTo</key>
       <array>
         <string>public.data</string>

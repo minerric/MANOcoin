@@ -247,7 +247,7 @@
     </message>
     <message>
         <source>MANO Core</source>
-        <translation>Mano Ядро</translation>
+        <translation>MANO Ядро</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -983,7 +983,7 @@
     <name>HelpMessageDialog</name>
     <message>
         <source>MANO Core</source>
-        <translation>Mano ядро</translation>
+        <translation>MANO ядро</translation>
     </message>
     <message>
         <source>version</source>
@@ -1062,7 +1062,7 @@
     </message>
     <message>
         <source>MANO Core will download and store a copy of the MANO block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Mano ще свали и съхрани копие на MANO регистъра на блокове. Информацията ще заеме поне %1ГБ  пространство и ще нараства с времето. В тази папка ще бъде съхранен и портфейла. </translation>
+        <translation>MANO ще свали и съхрани копие на MANO регистъра на блокове. Информацията ще заеме поне %1ГБ  пространство и ще нараства с времето. В тази папка ще бъде съхранен и портфейла. </translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1074,7 +1074,7 @@
     </message>
     <message>
         <source>MANO Core</source>
-        <translation>Mano ядро</translation>
+        <translation>MANO ядро</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -2951,7 +2951,7 @@ https://www.transifex.com/projects/p/mano/</translation>
     </message>
     <message>
         <source>The MANO address to send the payment to</source>
-        <translation>Mano адресът да изпрати плащането към </translation>
+        <translation>MANO адресът да изпрати плащането към </translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3026,7 +3026,7 @@ https://www.transifex.com/projects/p/mano/</translation>
     <name>ShutdownWindow</name>
     <message>
         <source>MANO Core is shutting down...</source>
-        <translation>Mano ядрото се изключва...</translation>
+        <translation>MANO ядрото се изключва...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -3049,7 +3049,7 @@ https://www.transifex.com/projects/p/mano/</translation>
     </message>
     <message>
         <source>The MANO address to sign the message with</source>
-        <translation>Mano адресът да подпише съобщението</translation>
+        <translation>MANO адресът да подпише съобщението</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3105,7 +3105,7 @@ https://www.transifex.com/projects/p/mano/</translation>
     </message>
     <message>
         <source>The MANO address the message was signed with</source>
-        <translation>Mano адресът ,с който е подписано съобщението</translation>
+        <translation>MANO адресът ,с който е подписано съобщението</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified MANO address</source>
@@ -3180,7 +3180,7 @@ https://www.transifex.com/projects/p/mano/</translation>
     </message>
     <message>
         <source>MANO Core</source>
-        <translation>Mano Ядро</translation>
+        <translation>MANO Ядро</translation>
     </message>
     <message>
         <source>Version %1</source>

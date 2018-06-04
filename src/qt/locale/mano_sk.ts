@@ -1697,7 +1697,7 @@ https://www.transifex.com/projects/p/mano/</translation>
     </message>
     <message>
         <source>Cannot start mano: click-to-pay handler</source>
-        <translation>Mano sa nedá spustiť: click-to-pay handler</translation>
+        <translation>MANO sa nedá spustiť: click-to-pay handler</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -2732,7 +2732,7 @@ https://www.transifex.com/projects/p/mano/</translation>
     </message>
     <message>
         <source>The MANO address to send the payment to</source>
-        <translation>Mano adresa pre poslanie platby</translation>
+        <translation>MANO adresa pre poslanie platby</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2822,7 +2822,7 @@ https://www.transifex.com/projects/p/mano/</translation>
     </message>
     <message>
         <source>The MANO address to sign the message with</source>
-        <translation>Mano adresa na podpísanie správy</translation>
+        <translation>MANO adresa na podpísanie správy</translation>
     </message>
     <message>
         <source>Choose previously used address</source>

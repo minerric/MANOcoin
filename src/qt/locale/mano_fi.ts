@@ -1319,7 +1319,7 @@ Varoitus: Jos käytät käyttöjärjestelmää suoraan usb, dvd tai cd levyltä 
     </message>
     <message>
         <source>Amount of MANO to keep anonymized</source>
-        <translation>Mano määrä joka pidetään anonymisoituna</translation>
+        <translation>MANO määrä joka pidetään anonymisoituna</translation>
     </message>
     <message>
         <source>W&amp;allet</source>
@@ -2956,7 +2956,7 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
     </message>
     <message>
         <source>The MANO address to send the payment to</source>
-        <translation>Mano osoite johon maksu lähetetään</translation>
+        <translation>MANO osoite johon maksu lähetetään</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3054,7 +3054,7 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
     </message>
     <message>
         <source>The MANO address to sign the message with</source>
-        <translation>Mano osoite jolla viesti allekirjoitetaan</translation>
+        <translation>MANO osoite jolla viesti allekirjoitetaan</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3110,7 +3110,7 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
     </message>
     <message>
         <source>The MANO address the message was signed with</source>
-        <translation>Mano osoite jolla viesti on allekirjoitettu</translation>
+        <translation>MANO osoite jolla viesti on allekirjoitettu</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified MANO address</source>

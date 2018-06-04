@@ -73,10 +73,10 @@ QString BitcoinUnits::description(int unit)
     {
         switch(unit)
         {
-            case MANO: return QString("Mano");
-            case mMANO: return QString("Milli-Mano (1 / 1" THIN_SP_UTF8 "000)");
-            case uMANO: return QString("Micro-Mano (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
-            case nodes: return QString("Ten Nano-Mano (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case MANO: return QString("MANO");
+            case mMANO: return QString("Milli-MANO (1 / 1" THIN_SP_UTF8 "000)");
+            case uMANO: return QString("Micro-MANO (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case nodes: return QString("Ten Nano-MANO (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
             default: return QString("???");
         }
     }
@@ -84,10 +84,10 @@ QString BitcoinUnits::description(int unit)
     {
         switch(unit)
         {
-            case MANO: return QString("TestManos");
-            case mMANO: return QString("Milli-TestMano (1 / 1" THIN_SP_UTF8 "000)");
-            case uMANO: return QString("Micro-TestMano (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
-            case nodes: return QString("Ten Nano-TestMano (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case MANO: return QString("TestMANOs");
+            case mMANO: return QString("Milli-TestMANO (1 / 1" THIN_SP_UTF8 "000)");
+            case uMANO: return QString("Micro-TestMANO (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case nodes: return QString("Ten Nano-TestMANO (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
             default: return QString("???");
         }
     }

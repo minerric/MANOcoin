@@ -16,8 +16,8 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Mano"
-            VALUE "FileDescription",    "manod (Mano node with a JSON-RPC server)"
+            VALUE "CompanyName",        "MANO"
+            VALUE "FileDescription",    "manod (MANO node with a JSON-RPC server)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
             VALUE "InternalName",       "manod"
             VALUE "LegalCopyright",     COPYRIGHT_STR

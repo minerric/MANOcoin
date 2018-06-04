@@ -188,8 +188,8 @@
         <translation>Portafoglio cifrato</translation>
     </message>
     <message>
-        <source>Mano will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your manos from being stolen by malware infecting your computer.</source>
-        <translation>Mano adesso si chiuderá per finire il processo di crittografia. Ricorda che crittografare il tuo portafoglio non ti da una protezione totale se il tuo computer é infettato da malware</translation>
+        <source>MANO will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your manos from being stolen by malware infecting your computer.</source>
+        <translation>MANO adesso si chiuderá per finire il processo di crittografia. Ricorda che crittografare il tuo portafoglio non ti da una protezione totale se il tuo computer é infettato da malware</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>

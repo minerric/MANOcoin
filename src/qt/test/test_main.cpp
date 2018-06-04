@@ -40,7 +40,7 @@ int main(int argc, char *argv[])
     // Don't remove this, it's needed to access
     // QCoreApplication:: in the tests
     QCoreApplication app(argc, argv);
-    app.setApplicationName("Mano-Qt-test");
+    app.setApplicationName("MANO-Qt-test");
 
     SSL_library_init();
 

@@ -13,7 +13,7 @@
 - (NSString *)__bundleIdentifier
 {
     if (self == [NSBundle mainBundle]) {
-        return @"org.mano.Mano-Qt";
+        return @"org.mano.MANO-Qt";
     } else {
         return [self __bundleIdentifier];
     }

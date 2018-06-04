@@ -189,7 +189,7 @@
     </message>
     <message>
         <source>MANO Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your manos from being stolen by malware infecting your computer.</source>
-        <translation>Mano wird jetzt beendet, um den Verschlüsselungsprozess abzuschließen. Bitte beachten Sie, dass die Wallet-Verschlüsselung nicht vollständig vor Diebstahl ihrer MANO durch Schadsoftware schützt, die ihren Computer befallen könnte.</translation>
+        <translation>MANO wird jetzt beendet, um den Verschlüsselungsprozess abzuschließen. Bitte beachten Sie, dass die Wallet-Verschlüsselung nicht vollständig vor Diebstahl ihrer MANO durch Schadsoftware schützt, die ihren Computer befallen könnte.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -271,7 +271,7 @@
     </message>
     <message>
         <source>Send coins to a MANO address</source>
-        <translation>Mano an eine MANO-Adresse überweisen</translation>
+        <translation>MANO an eine MANO-Adresse überweisen</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
@@ -1866,7 +1866,7 @@ https://www.transifex.com/projects/p/mano/</translation>
     </message>
     <message>
         <source>Cannot start mano: click-to-pay handler</source>
-        <translation>Mano kann nicht gestartet werden: click-to-pay handler</translation>
+        <translation>MANO kann nicht gestartet werden: click-to-pay handler</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -2000,7 +2000,7 @@ https://www.transifex.com/projects/p/mano/</translation>
     </message>
     <message>
         <source>Enter a MANO address (e.g. %1)</source>
-        <translation>Mano-Adresse eingeben (z.B. %1)</translation>
+        <translation>MANO-Adresse eingeben (z.B. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2650,7 +2650,7 @@ https://www.transifex.com/projects/p/mano/</translation>
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>Mano überweisen</translation>
+        <translation>MANO überweisen</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
@@ -2954,7 +2954,7 @@ Dies kann passieren, wenn einige MANO aus ihrer Wallet bereits ausgegeben wurden
     </message>
     <message>
         <source>The MANO address to send the payment to</source>
-        <translation>Mano-Adresse, an die überwiesen werden soll</translation>
+        <translation>MANO-Adresse, an die überwiesen werden soll</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3029,7 +3029,7 @@ Dies kann passieren, wenn einige MANO aus ihrer Wallet bereits ausgegeben wurden
     <name>ShutdownWindow</name>
     <message>
         <source>MANO Core is shutting down...</source>
-        <translation>Mano-Core wird herunter gefahren...</translation>
+        <translation>MANO-Core wird herunter gefahren...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -3052,7 +3052,7 @@ Dies kann passieren, wenn einige MANO aus ihrer Wallet bereits ausgegeben wurden
     </message>
     <message>
         <source>The MANO address to sign the message with</source>
-        <translation>Mano-Adresse, mit der die Nachricht signiert werden soll</translation>
+        <translation>MANO-Adresse, mit der die Nachricht signiert werden soll</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3108,7 +3108,7 @@ Dies kann passieren, wenn einige MANO aus ihrer Wallet bereits ausgegeben wurden
     </message>
     <message>
         <source>The MANO address the message was signed with</source>
-        <translation>Mano-Adresse, mit der die Nachricht signiert worden ist</translation>
+        <translation>MANO-Adresse, mit der die Nachricht signiert worden ist</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified MANO address</source>
@@ -3735,7 +3735,7 @@ Dies kann passieren, wenn einige MANO aus ihrer Wallet bereits ausgegeben wurden
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
-        <translation>Mano überweisen</translation>
+        <translation>MANO überweisen</translation>
     </message>
     <message>
         <source>InstantSend doesn't support sending values that high yet. Transactions are currently limited to %1 MANO.</source>

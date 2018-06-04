@@ -4,15 +4,15 @@
 
 	* means the category has an associated class
 
-	CManoNetwork: MANO NETWORK (ROOT)
+	CMANONetwork: MANO NETWORK (ROOT)
 	has:
 		vector<CNetworkVariable> vecNetworkVariables;
-		vector<CManoProject> vecProjects;
+		vector<CMANOProject> vecProjects;
 		vector<CGovernanceObject> vecProposals;
 		vector<CBudgetContract> vecContracts;
 		vector<CBudgetUsers> vecUsers;
 
-	CManoProject:
+	CMANOProject:
 	has:
 		name
 		employees
