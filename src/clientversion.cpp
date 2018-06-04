@@ -13,7 +13,7 @@
  * for both manod and mano-qt, to make it harder for attackers to
  * target servers or GUI users specifically.
  */
-const std::string CLIENT_NAME("Mano");
+const std::string CLIENT_NAME("MANO");
 
 /**
  * Client version number

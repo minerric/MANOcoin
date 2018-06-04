@@ -21,7 +21,7 @@ How to Upgrade
 
 If you are running an older version, shut it down. Wait until it has completely
 shut down (which might take a few minutes for older versions), then run the
-installer (on Windows) or just copy over /Applications/Mano-Qt (on Mac) or
+installer (on Windows) or just copy over /Applications/MANO-Qt (on Mac) or
 manod/mano-qt (on Linux). Because of the per-UTXO fix (see below) there is a
 one-time database upgrade operation, so expect a slightly longer startup time on
 the first run.
@@ -229,7 +229,7 @@ reviewed pull requests or helped translating on
 Older releases
 ==============
 
-Mano was previously known as Darkcoin.
+MANO was previously known as Darkcoin.
 
 Darkcoin tree 0.8.x was a fork of Litecoin tree 0.8, original name was XCoin
 which was first released on Jan/18/2014.

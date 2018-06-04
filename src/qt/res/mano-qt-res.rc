@@ -18,7 +18,7 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Mano"
+            VALUE "CompanyName",        "MANO"
             VALUE "FileDescription",    "MANO Core (GUI node for MANO)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
             VALUE "InternalName",       "mano-qt"

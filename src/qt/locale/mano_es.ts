@@ -188,8 +188,8 @@
         <translation>Monedero cifrado</translation>
     </message>
     <message>
-        <source>Mano will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your manos from being stolen by malware infecting your computer.</source>
-        <translation>Mano se cerrará ahora para finalizar el proceso de cifrado. Recuerde que el cifrado de su monedero no puede proteger totalmente sus manos del robo por un malware que infecte su sistema.</translation>
+        <source>MANO will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your manos from being stolen by malware infecting your computer.</source>
+        <translation>MANO se cerrará ahora para finalizar el proceso de cifrado. Recuerde que el cifrado de su monedero no puede proteger totalmente sus manos del robo por un malware que infecte su sistema.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -3720,7 +3720,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s "Mano Alert" admin@foo.com
+for example: alertnotify=echo %%s | mail -s "MANO Alert" admin@foo.com
 </source>
         <translation>Para usar manod, o la opción -server de mano-qt, debe establecer rpcpassword en el archivo de configuración:
 %s

@@ -188,7 +188,7 @@
         <translation>Carteira cifrada</translation>
     </message>
     <message>
-        <source>Mano will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your manos from being stolen by malware infecting your computer.</source>
+        <source>MANO will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your manos from being stolen by malware infecting your computer.</source>
         <translation>O cliente MANO irá fechar para finalizar o processo de cifra. Lembre-se que cifrar a sua carteira não consegue proteger totalmente as suas manos contra roubos feitos por malware presente no seu computador.</translation>
     </message>
     <message>

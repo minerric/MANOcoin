@@ -68,9 +68,9 @@ can then be controlled by group membership.
 3b) Mac OS X
 
 Binary:              `/usr/local/bin/manod`  
-Configuration file:  `~/Library/Application Support/Mano/mano.conf`  
-Data directory:      `~/Library/Application Support/Mano`
-Lock file:           `~/Library/Application Support/Mano/.lock`
+Configuration file:  `~/Library/Application Support/MANO/mano.conf`  
+Data directory:      `~/Library/Application Support/MANO`
+Lock file:           `~/Library/Application Support/MANO/.lock`
 
 4. Installing Service Configuration
 -----------------------------------

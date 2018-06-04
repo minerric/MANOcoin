@@ -24,7 +24,7 @@ Drag MANO-Qt to your applications folder, and then run MANO-Qt.
 
 ### Need Help?
 
-* See the [Mano website](https://manocoin.org)
+* See the [MANO website](https://manocoin.org)
 for help and more information.
 * Ask for help on [#tech-support](https://discord.gg/p4rY4ah) on Discord.
 

@@ -46,7 +46,7 @@
  * =========================
  *
  *   // network
- *   CManoNetwork lvl, network-type, network-status, network-error, milestone-status*
+ *   CMANONetwork lvl, network-type, network-status, network-error, milestone-status*
  *   CCategory lvl, category-type, status, status-error
  *   CNetworkGlobalVariable lvl, global-type, status, status-error
  *   // base: actor
@@ -131,7 +131,7 @@ public:
 };
 
 // // root node
-class CManoNetwork : public CGovernanceObject
+class CMANONetwork : public CGovernanceObject
 {
 private:
     std::string strName;
@@ -139,7 +139,7 @@ private:
 
 
 public:
-    CManoNetwork(UniValue objIn)
+    CMANONetwork(UniValue objIn)
     {
         strName = objIn["name"].get_str();
         strURL = objIn["name"].get_str();
@@ -177,7 +177,7 @@ public:
 
 // // can be under: MANONetwork
 // //   -- signature requirements : Key1(User)
-// class CManoNetworkVariable : public CGovernanceObject
+// class CMANONetworkVariable : public CGovernanceObject
 // {
 // private:
 

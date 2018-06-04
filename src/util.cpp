@@ -105,7 +105,7 @@ namespace boost {
 
 using namespace std;
 
-//Mano only features
+//MANO only features
 bool fMasterNode = false;
 bool fLiteMode = false;
 /**
@@ -517,13 +517,13 @@ void PrintExceptionContinue(const std::exception* pex, const char* pszThread)
 boost::filesystem::path GetDefaultDataDir()
 {
     namespace fs = boost::filesystem;
-    // Windows < Vista: C:\Documents and Settings\Username\Application Data\Mano
-    // Windows >= Vista: C:\Users\Username\AppData\Roaming\Mano
-    // Mac: ~/Library/Application Support/Mano
+    // Windows < Vista: C:\Documents and Settings\Username\Application Data\MANO
+    // Windows >= Vista: C:\Users\Username\AppData\Roaming\MANO
+    // Mac: ~/Library/Application Support/MANO
     // Unix: ~/.mano
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "Mano";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "MANO";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -533,7 +533,7 @@ boost::filesystem::path GetDefaultDataDir()
         pathRet = fs::path(pszHome);
 #ifdef MAC_OSX
     // Mac
-    return pathRet / "Library/Application Support/Mano";
+    return pathRet / "Library/Application Support/MANO";
 #else
     // Unix
     return pathRet / ".mano";

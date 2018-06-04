@@ -4,7 +4,7 @@ NOTE : 1.1.0 -- REWRITE
 Masternode Budget API
 =======================
 
-Mano now supports full decentralized budgets that are paid directly from the blockchain via superblocks once per month.
+MANO now supports full decentralized budgets that are paid directly from the blockchain via superblocks once per month.
 
 Budgets go through a series of stages before being paid:
  * prepare - create a special transaction that destroys coins in order to make a proposal

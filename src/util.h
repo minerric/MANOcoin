@@ -42,7 +42,7 @@
 #define DBG( x )
 #endif
 
-//Mano only features
+//MANO only features
 
 extern bool fMasterNode;
 extern bool fLiteMode;
