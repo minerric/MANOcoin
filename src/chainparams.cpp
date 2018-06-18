@@ -10,7 +10,7 @@
 #include "tinyformat.h"
 #include "util.h"
 #include "utilstrencodings.h"
-#include "arith_uint256.h" 
+#include "arith_uint256.h"
 
 #include <assert.h>
 
@@ -98,10 +98,10 @@ public:
         consensus.vDeployments[Consensus::DEPLOYMENT_DIP0001].nThreshold = 3226; // 80% of 4032
 
         // The best chain should have at least this much work.
-       consensus.nMinimumChainWork = uint256S("0000000000000000000000000000000000000000000000000000000000b0001a"); // 10
+       consensus.nMinimumChainWork = uint256S("00000000000000000000000000000000000000000000000000606db762cc19d7"); // 9517
 
         // By default assume that the signatures in ancestors of this block are valid.
-       consensus.defaultAssumeValid = uint256S("0x0000086544ae58ca1f6d82d0a734e7959e8ed73a844ce762af22fe741c583552"); // 10
+       consensus.defaultAssumeValid = uint256S("0x000000000019f388b70c39e87931b05e9fd0c381c9f2f7112211af16c4075987"); // 9517
 
         /**
          * The message start string is designed to be unlikely to occur in normal data.
@@ -165,11 +165,12 @@ public:
         checkpointData = (CCheckpointData) {
             boost::assign::map_list_of
            (  7, uint256S("0x00000dfd045fad7bdbb28512ce804d452945547e0510644bbbecb466b4cf92f5"))
-          (  10, uint256S("0x0000086544ae58ca1f6d82d0a734e7959e8ed73a844ce762af22fe741c583552")),
-            1528095758, // * UNIX timestamp of last checkpoint block
-            0,    // * total number of transactions between genesis and last checkpoint
+           ( 10, uint256S("0x0000086544ae58ca1f6d82d0a734e7959e8ed73a844ce762af22fe741c583552"))
+           ( 9517, uint256S("0x000000000019f388b70c39e87931b05e9fd0c381c9f2f7112211af16c4075987")),
+            1529304311, // * UNIX timestamp of last checkpoint block
+            4008,    // * total number of transactions between genesis and last checkpoint
                         //   (the tx=... number in the SetBestChain debug.log lines)
-            10        // * estimated number of transactions per day after checkpoint
+            250        // * estimated number of transactions per day after checkpoint
        };
     }
 };
