@@ -2,7 +2,7 @@ MANO Core 1.0.1
 ===============================
 
 
-https://www.manocoin.org
+https://www.mano.org
 
 
 What is MANO?
@@ -14,7 +14,7 @@ to operate with no central authority: managing transactions and issuing money
 are carried out collectively by the network. MANO Core is the name of the open
 source software which enables the use of this currency.
 
-For more information see https://www.manocoin.org/.
+For more information see https://www.mano.org/.
 
 
 License
