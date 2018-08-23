@@ -1,4 +1,4 @@
-MANO Core 1.0.1
+MANO Core 1.1.0
 ===============================
 
 
@@ -13,6 +13,7 @@ payments to anyone, anywhere in the world. MANO uses peer-to-peer technology
 to operate with no central authority: managing transactions and issuing money
 are carried out collectively by the network. MANO Core is the name of the open
 source software which enables the use of this currency.
+
 
 For more information see https://www.MANO.org/ and join us on Discord: https://discord.gg/p4rY4ah.
 

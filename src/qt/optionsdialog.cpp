@@ -83,21 +83,21 @@ OptionsDialog::OptionsDialog(QWidget *parent, bool enableWallet) :
     }
 
     /* Display elements init */
-    
+
     /* Number of displayed decimal digits selector */
     QString digits;
     for(int index = 2; index <=8; index++){
         digits.setNum(index);
         ui->digits->addItem(digits, digits);
     }
-    
+
     /* Theme selector */
     ui->theme->addItem(QString("MANO-light"), QVariant("light"));
     ui->theme->addItem(QString("MANO-light-hires"), QVariant("light-hires"));
     ui->theme->addItem(QString("MANO-blue"), QVariant("drkblue"));
     ui->theme->addItem(QString("MANO-Crownium"), QVariant("crownium"));
     ui->theme->addItem(QString("MANO-traditional"), QVariant("trad"));
-    
+
     /* Language selector */
     QDir translations(":translations");
     ui->lang->addItem(QString("(") + tr("default") + QString(")"), QVariant(""));
@@ -128,7 +128,7 @@ OptionsDialog::OptionsDialog(QWidget *parent, bool enableWallet) :
         }
     }
 #if QT_VERSION >= 0x040700
-    ui->thirdPartyTxUrls->setPlaceholderText("https://example.com/tx/%s");
+    ui->thirdPartyTxUrls->setPlaceholderText("https://explorer.manocoin.org/tx/%s");
 #endif
 
     ui->unit->setModel(new BitcoinUnits(this));
