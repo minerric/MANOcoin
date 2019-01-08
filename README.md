@@ -2,8 +2,6 @@ MANO Core 1.1.0
 ===============================
 
 
-https://www.MANO.org
-
 
 What is MANO?
 ----------------
@@ -15,7 +13,7 @@ are carried out collectively by the network. MANO Core is the name of the open
 source software which enables the use of this currency.
 
 
-For more information see https://www.MANO.org/ and join us on Discord: https://discord.gg/p4rY4ah.
+For more information see [NEW WEBSITE COMING SOON] and join us on Discord:https://discord.gg/Bf7n8RJ.
 
 
 License
