@@ -112,7 +112,7 @@ public:
         pchMessageStart[1] = 0xfb;
         pchMessageStart[2] = 0xde;
         pchMessageStart[3] = 0xb0;
-        vAlertPubKey = ParseHex("04646ddfd79fd5cf676f2df75d0d541ecc5a8fc5cb6b2df1f4c5b1924257aeb2d6b1e1eedcaa426465c367bf924fb0ae1447d24534d7ecab847f9b46c1042b4ee1");
+        vAlertPubKey = ParseHex("0420b24423eb082341dfa41df37ca6a3cc3153416bf6bb58b4d5c0532f08ba84e29f056caeeee4c9cd443c68a14114704089dbbb5efd21f98eaed7ca2ba349e5d9");
         nDefaultPort = 5982;
         nMaxTipAge = 6 * 60 * 60; // ~144 blocks behind -> 2 x fork detection time, was 24 * 60 * 60 in bitcoin
         nDelayGetHeadersTime = 24 * 60 * 60;
@@ -125,7 +125,9 @@ public:
         assert(genesis.hashMerkleRoot == uint256S("0x23cb8d05e3c20de367bfddd4bb582a84ac77dd26c2fd679e221dc704017ef3e9"));
 
 
-      vSeeds.push_back(CDNSSeedData("manocoin.org", "seed.manocoin.org" ));
+        vSeeds.push_back(CDNSSeedData("167.179.94.218", "167.179.94.218" ));
+        vSeeds.push_back(CDNSSeedData("45.76.213.173", "45.76.213.173" ));
+        vSeeds.push_back(CDNSSeedData("202.182.101.132", "202.182.101.132" ));
 
 
         // MANO addresses start with 'M'
@@ -152,7 +154,7 @@ public:
 
         nPoolMaxTransactions = 3;
         nFulfilledRequestExpireTime = 60*60; // fulfilled requests expire in 1 hour
-        strSporkPubKey = "040a75e34492716a8d047f12b6ad909a90fb86398f59da1ea7a2c97f3ed2d9fa3d667f0eecdf4852da242d27a9f86b3553fd0bd7793af1c587297367fd73f8f32b";
+        strSporkPubKey = "04779207612160e91c4d2739cfecc0dfeb2cf18c7788be9edfe4fc50ada9be93551c9be432e3c696a5f67b91c349ea1482dd222015cd27fcc674fd96715daee0ad";
 
         /**
          * What makes a good checkpoint block?
@@ -235,7 +237,7 @@ public:
         pchMessageStart[1] = 0xb2;
         pchMessageStart[2] = 0xb6;
         pchMessageStart[3] = 0xe5;
-        vAlertPubKey = ParseHex("043fc32e5547f16a9710d76fa543776c886fcec7fc52dff72a6c8072c132ae6aba33099e515c2ebdc7d8a1cc0adb5c26dc6c420b86d87d1fa2be0cfadfa5e6c990");
+        vAlertPubKey = ParseHex("0420b24423eb082341dfa41df37ca6a3cc3153416bf6bb58b4d5c0532f08ba84e29f056caeeee4c9cd443c68a14114704089dbbb5efd21f98eaed7ca2ba349e5d9");
         nDefaultPort = 15982;
         nMaxTipAge = 0x7fffffff; // allow mining on top of old blocks for testnet
         nDelayGetHeadersTime = 24 * 60 * 60;
@@ -275,7 +277,7 @@ public:
 
         nPoolMaxTransactions = 3;
         nFulfilledRequestExpireTime = 5*60; // fulfilled requests expire in 5 minutes
-        strSporkPubKey = "040a75e34492716a8d047f12b6ad909a90fb86398f59da1ea7a2c97f3ed2d9fa3d667f0eecdf4852da242d27a9f86b3553fd0bd7793af1c587297367fd73f8f32b";
+        strSporkPubKey = "044554383c929e5543784e83fef24e03df973c9342260464521aa4555716392473591b7ffff831f4bbf45e7a843ab6041dbd57aa6844ef564071a337e1b19f0f33";
 
         checkpointData = (CCheckpointData) {
             boost::assign::map_list_of
